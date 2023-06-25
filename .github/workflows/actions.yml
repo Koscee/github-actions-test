@@ -27,6 +27,7 @@ jobs:
         run: |
           pwd
           ls -A
+          ls -lh
       - name: Simple Javascript Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
